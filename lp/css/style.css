@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 70px;
+  background-color: #00b7ffbe;
+  color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.logo {
+  width: 120px;
+}
+.header-nav-wrap {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.header-nav-item-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-nav-item a {
+  text-decoration: none;
+  border-right: solid 1px white;
+  text-align: center;
+  color: white;
+}
+.header-nav-item a:nth-child(5) {
+  border-right: none;
+  text-align: center;
+}
+.header-nav-item a:hover {
+  transition: 0.5s;
+  color: rgb(244, 255, 86);
+}
+.content-wrap {
+  position: relative;
+}
+.content-wrap-course {
+  position: relative;
+}
+
+.button-wrap-course {
+  top: 73rem;
+  left: 23rem;
+  position: absolute;
+}
+.button-wrap-course :hover {
+  transition: 0.5s;
+}
+
+.button {
+  filter: drop-shadow(0 0 3px #7b4a0088);
+  width: 450px;
+  margin: 0 auto;
+}
+.button02 {
+  filter: drop-shadow(0 0 3px #007c1988);
+  width: 450px;
+  margin: 0 auto;
+}
+.button-wrap {
+  top: 10rem;
+  position: absolute;
+  background-position: center;
+}
+.button:hover {
+  display: block;
+  transition: 0.5s;
+  filter: drop-shadow(0 3px 5px #ff7800);
+}
+.button02:hover {
+  display: block;
+  transition: 0.5s;
+  filter: drop-shadow(0 3px 5px #6ae863);
+}
